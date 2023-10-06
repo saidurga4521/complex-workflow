@@ -3,7 +3,7 @@ on: push
 jobs:
   job1:
    runs-on: ubuntu-latest
-   steps:
+    steps:
     -run: date
   job2:
    runs-on: windows-latest
